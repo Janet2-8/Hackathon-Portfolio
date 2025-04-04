@@ -364,7 +364,7 @@ section
 
 #about
 {
-    display:flex;
+    display:block
     justify-content: center;
     align-items: center;
     gap: 10rem;
@@ -376,6 +376,7 @@ section
     width: 35vw;
     box-shadow: 0 0 25px rgba(25, 139, 139);
     transition: 0.4s ease-in-out;
+    position: center;
 }
 
 .about-img img:hover
@@ -706,21 +707,21 @@ section
 .contact form{
     display: flex;
     align-items: center;
-    gap: 3rem;
-    margin:5rem 0;
+    gap: 1rem;
+    margin:.5rem;
     text-align: center;
 }
 
 .contact form .input-box input,
 .contact form textarea{
     width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
     color: #f2f2f2;
     background-color: burlywood;
-    border-radius: 2rem;
-    border: 2px solid #f2f2f2;
-    margin: 1.5rem;
+    border-radius: 1rem;
+    border: 0.3px solid #f2f2f2;
+    margin: 1rem;
     resize:none
 }
 .footer{
