@@ -14,8 +14,7 @@ html{
 body
 {
     min-height: 100vh;
-    background-image: url(pexels-ian-panelo-8858714.jpg) no-repeat
-    center center/cover;
+    background-image: url(pexels-ian-panelo-8858714.jpg);
     
 }
 
@@ -198,15 +197,6 @@ span
     letter-spacing: 2px;
     position: fixed;
 }
-
-.home-img img
-{
-    background-color: burlywood;
-    width: 32vw;
-    box-shadow: 0 0 25px rgba(25, 139, 139);
-    transition: 0.3s ease-in-out;
-}
-
 .home-img img:hover
 {
     box-shadow: 0 0 25px rgba(25, 139, 139),
@@ -364,7 +354,7 @@ span
 
 section
 {
-    color: #fff;
+    color: #f2f2f2;
     min-height: 100vh;
     padding: 10rem 12%;
     display: flex;
@@ -383,7 +373,7 @@ section
 
 .about-img img
 {
-    width: 32vw;
+    width: 35vw;
     box-shadow: 0 0 25px rgba(25, 139, 139);
     transition: 0.4s ease-in-out;
 }
@@ -397,20 +387,17 @@ section
 
 .about-content h2
 {
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
 }
 
 .about-content p
 {
-    font-size: 15px;
+    font-size: 25px;
     position: relative;
+    text-align: center;
 }
 
-#about-content .btn
-{  
-    margin: 3rem 0;
-}
 
 ::-webkit-scrollbar
 {
@@ -428,24 +415,24 @@ section
 }
 
 .heading{
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     margin: 5rem 0;
 }
 
 #education{
-    padding: 100px 15px;
+    padding: 80px 10px;
     background-color: rgb(26, 24, 24);
     
 }
 
 .education h2{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     font-size: 50px;
 }
 
 .timeline-items{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -455,14 +442,14 @@ section
 .timeline-items::before{
     content: "";
     position: relative;
-    width: 5px;
+    width: 3px;
     height: 100%;
     background-color: rgb(26, 24, 24);
     left: calc(50% - 1px);
 }
 
 .timeline-item{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 100%;
     position: relative;
 }
@@ -472,11 +459,11 @@ section
 }
 
 .timeline-item:nth-child(odd){
-    padding-right: calc(50% + 30px);
+    padding-right: calc(40% + 20px);
 }
 
 .timeline-item:nth-child(even){
-    padding-left: calc(50% + 30px);
+    padding-left: calc(40% + 20px);
 }
 
 .timeline-dot{
@@ -502,8 +489,8 @@ section
 .timeline-content{
     background-color: rgb(26, 24, 24);
     border: 3px solid rgb(24, 163, 163);
-    padding: 30px 50px; 
-    border-radius: 4rem;
+    padding: 20px 40px; 
+    border-radius: 2rem;
     box-shadow: 0 0 10px rgb(24, 163, 163);
     cursor: pointer;
     transition: 0.3s ease-in-out;
